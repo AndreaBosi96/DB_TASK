@@ -3,6 +3,7 @@ To run the solution locally:
 - update the db connection string in appsettings.json according to your own system settings
 - install necessary packages:
         -- Microsoft.Extensions.Configuration
+        -- Microsoft.Extensions.Configuration.json
         -- System.Data.SqlClient
 - get into the project folder and run simple dotnet cmds
         -- dotnet restore
