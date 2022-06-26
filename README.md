@@ -33,6 +33,7 @@ To run the solution locally:
 - Increase amount and quality of tests. I just tested the datatables in a very basic way. Introduce some tests on DB and on XML files.
 - Introduce unit tests to try functions and classes without running the whole code everytime (on the whole dataset)
 - Some functions could probably be developed in a more performig way
+- Output: AS IS, the results are only in the console. I also printed the result of the procedures, but the format is not really user-friendly. For a real case, something like an output csv or txt might be produced!
 
 ### To conclude
 Thanks for reading this file and checking my solution. Feel free to contact me for anything! 
