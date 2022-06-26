@@ -1,0 +1,42 @@
+<InvalidData_table>
+  <InvalidData_row>
+    <ErrorType>0</ErrorType>
+    <ErrorDescription>missing conversionfactor </ErrorDescription>
+    <Data>Row 2365 of csv</Data>
+  </InvalidData_row>
+  <InvalidData_row>
+    <ErrorType>0</ErrorType>
+    <ErrorDescription>missing conversionfactor </ErrorDescription>
+    <Data>Row 180471 of csv</Data>
+  </InvalidData_row>
+  <InvalidData_row>
+    <ErrorType>0</ErrorType>
+    <ErrorDescription>missing conversionfactor </ErrorDescription>
+    <Data>Row 181039 of csv</Data>
+  </InvalidData_row>
+  <InvalidData_row>
+    <ErrorType>0</ErrorType>
+    <ErrorDescription>missing conversionfactor </ErrorDescription>
+    <Data>Row 181041 of csv</Data>
+  </InvalidData_row>
+  <InvalidData_row>
+    <ErrorType>0</ErrorType>
+    <ErrorDescription>missing conversionfactor </ErrorDescription>
+    <Data>Row 181043 of csv</Data>
+  </InvalidData_row>
+  <InvalidData_row>
+    <ErrorType>0</ErrorType>
+    <ErrorDescription>missing conversionfactor </ErrorDescription>
+    <Data>Row 181045 of csv</Data>
+  </InvalidData_row>
+  <InvalidData_row>
+    <ErrorType>0</ErrorType>
+    <ErrorDescription>missing conversionfactor </ErrorDescription>
+    <Data>Row 181047 of csv</Data>
+  </InvalidData_row>
+  <InvalidData_row>
+    <ErrorType>0</ErrorType>
+    <ErrorDescription>missing conversionfactor </ErrorDescription>
+    <Data>Row 181049 of csv</Data>
+  </InvalidData_row>
+</InvalidData_table>
