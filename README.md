@@ -6,21 +6,36 @@ To run the solution locally:
 - update the db connection string in appsettings.json according to your system
 - install necessary packages:
         -- Microsoft.Extensions.Configuration
+        -- Microsoft.Extensions.Configuration.json
         -- System.Data.SqlClient
 - get into the project folder and run simple dotnet cmds
         -- dotnet restore
         -- dotnet run
 
-Please note that the input file (after "Headers read") might take a couple of minutes to run. It is expecially due to a check about GUIDS.
-With more time, I would have probably made the process faster using a different solution (maybe a hash set).
+### Files
+- program.cs is the source code
+- appsettings.json for settings
+- DB_ASK.csproj is the project file (you can find required packages here!)
+- Other: csv input, xml output, assignment's instructions, .txt instructions (I also uploaed dlls and so on to be sure)
 
-
+### My approach
+- Setup some initial stuff
+- Read the csv: while reading perform most of the checks and tweaks dividing rows in valid and invalid datatables.
+- Insert the dts to db
+- Export the dts to xml files
+- Perform some simple tests on dts
+- Execute stored procedures
+- 
 ### How to improve
-- Main problem is performance issue when importing data and doing checks
 - Better exceptions handling
-- Logging instead of prints!
-- Better code modularization
-- Increase amount and quality of tests
+- Logging instead of prints! I did not have a lot of time to put into this task and simple prints did the job, but it would be better to use some logger.
+- Better code modularization: a couple of classes could probably be merged together
+- Increase amount and quality of tests. I just tested the datatables in a very basic way. Introduce some tests on DB and on XML files.
+- Introduce unit tests to try functions and classes without running the whole code everytime (on the whole dataset)
+- Some functions could probably be developed in a more performig way
+
+### To conclude
+Thanks for reading this file and checking my solution. Feel free to contact me for anything! 
 
 
 # Thanks for reading!
